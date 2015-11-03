@@ -15,6 +15,10 @@
 		2B20AC3F1BE81361002254F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B20AC3D1BE81361002254F3 /* LaunchScreen.storyboard */; };
 		2B20AC4A1BE81361002254F3 /* ImageGalleriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20AC491BE81361002254F3 /* ImageGalleriesTests.m */; };
 		2B20AC551BE81362002254F3 /* ImageGalleriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20AC541BE81362002254F3 /* ImageGalleriesUITests.m */; };
+		2B20AC631BE821DC002254F3 /* Lighthouse-in-Field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B20AC621BE821DC002254F3 /* Lighthouse-in-Field.jpg */; };
+		2B20AC651BE821E9002254F3 /* Lighthouse-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B20AC641BE821E9002254F3 /* Lighthouse-night.jpg */; };
+		2B20AC671BE821FC002254F3 /* Lighthouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B20AC661BE821FC002254F3 /* Lighthouse.jpg */; };
+		2B20AC6A1BE830D7002254F3 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20AC691BE830D7002254F3 /* InitialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		2B20AC501BE81362002254F3 /* ImageGalleriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGalleriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B20AC541BE81362002254F3 /* ImageGalleriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleriesUITests.m; sourceTree = "<group>"; };
 		2B20AC561BE81362002254F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B20AC621BE821DC002254F3 /* Lighthouse-in-Field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lighthouse-in-Field.jpg"; path = "../../../../Downloads/ScrollView-Images-master/Images.xcassets/Lighthouse-in-Field.imageset/Lighthouse-in-Field.jpg"; sourceTree = "<group>"; };
+		2B20AC641BE821E9002254F3 /* Lighthouse-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lighthouse-night.jpg"; path = "../../../../Downloads/ScrollView-Images-master/Images.xcassets/Lighthouse-night.imageset/Lighthouse-night.jpg"; sourceTree = "<group>"; };
+		2B20AC661BE821FC002254F3 /* Lighthouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lighthouse.jpg; path = "../../../../Downloads/ScrollView-Images-master/Images.xcassets/Lighthouse-zoomed.imageset/Lighthouse.jpg"; sourceTree = "<group>"; };
+		2B20AC681BE830D7002254F3 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		2B20AC691BE830D7002254F3 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,11 @@
 				2B20AC331BE81361002254F3 /* AppDelegate.m */,
 				2B20AC351BE81361002254F3 /* ViewController.h */,
 				2B20AC361BE81361002254F3 /* ViewController.m */,
+				2B20AC681BE830D7002254F3 /* InitialViewController.h */,
+				2B20AC691BE830D7002254F3 /* InitialViewController.m */,
+				2B20AC621BE821DC002254F3 /* Lighthouse-in-Field.jpg */,
+				2B20AC641BE821E9002254F3 /* Lighthouse-night.jpg */,
+				2B20AC661BE821FC002254F3 /* Lighthouse.jpg */,
 				2B20AC381BE81361002254F3 /* Main.storyboard */,
 				2B20AC3B1BE81361002254F3 /* Assets.xcassets */,
 				2B20AC3D1BE81361002254F3 /* LaunchScreen.storyboard */,
@@ -248,7 +262,10 @@
 			files = (
 				2B20AC3F1BE81361002254F3 /* LaunchScreen.storyboard in Resources */,
 				2B20AC3C1BE81361002254F3 /* Assets.xcassets in Resources */,
+				2B20AC651BE821E9002254F3 /* Lighthouse-night.jpg in Resources */,
+				2B20AC671BE821FC002254F3 /* Lighthouse.jpg in Resources */,
 				2B20AC3A1BE81361002254F3 /* Main.storyboard in Resources */,
+				2B20AC631BE821DC002254F3 /* Lighthouse-in-Field.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +293,7 @@
 				2B20AC371BE81361002254F3 /* ViewController.m in Sources */,
 				2B20AC341BE81361002254F3 /* AppDelegate.m in Sources */,
 				2B20AC311BE81361002254F3 /* main.m in Sources */,
+				2B20AC6A1BE830D7002254F3 /* InitialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

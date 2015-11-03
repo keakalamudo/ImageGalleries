@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InitialViewController.h
 //  ImageGalleries
 //
 //  Created by Kelo Akalamudo on 11/2/15.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
-
-{
-    UIScrollView *myScrollView;
-}
+@interface InitialViewController : UIViewController
 
 @end
-
